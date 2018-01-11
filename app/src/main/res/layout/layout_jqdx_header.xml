@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.graypn.swiperefreshlayout.demo.view.header.JQRefreshHeaderView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/refresh_header_height_jd"
+    android:paddingBottom="8dp"
+    android:paddingTop="8dp">
+
+    <ImageView
+        android:id="@+id/ivLine"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignBottom="@+id/ivHead"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="-20dp"
+        android:layout_toLeftOf="@+id/ivHead"
+        android:background="@mipmap/ic_refresh_jq_line"
+        android:visibility="visible"/>
+
+    <ImageView
+        android:id="@+id/ivHead"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true"
+        android:background="@mipmap/ic_refresh_jq_head"/>
+
+</com.graypn.swiperefreshlayout.demo.view.header.JQRefreshHeaderView>

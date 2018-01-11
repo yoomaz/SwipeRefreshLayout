@@ -1,0 +1,9 @@
+<resources>
+
+    <!-- jd -->
+    <dimen name="refresh_header_height_jd">100dp</dimen>
+
+    <dimen name="load_more_trigger_offset">200dp</dimen>
+
+    <dimen name="load_more_footer_height_classic">60dp</dimen>
+</resources>

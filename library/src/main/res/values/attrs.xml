@@ -1,0 +1,40 @@
+<resources>
+    <declare-styleable name="SwipeRefreshLayout">
+        <attr name="refresh_enabled" format="boolean" />
+        <attr name="load_more_enabled" format="boolean" />
+        <!--下拉刷新样式-->
+        <attr name="swipe_style" format="enum">
+            <enum name="classic" value="0" />
+            <enum name="above" value="1" />
+            <enum name="blew" value="2" />
+            <enum name="scale" value="3" />
+        </attr>
+
+        <attr name="drag_ratio" format="float" />
+
+        <attr name="refresh_trigger_offset" format="dimension" />
+        <attr name="load_more_trigger_offset" format="dimension" />
+        <attr name="refresh_final_drag_offset" format="dimension" />
+        <attr name="load_more_final_drag_offset" format="dimension" />
+        <!--下拉状态(没有触发刷新)到初始状态的滑动时间-->
+        <attr name="swiping_to_refresh_to_default_scrolling_duration" format="integer" />
+        <!--松开到开始刷新的时间-->
+        <attr name="release_to_refreshing_scrolling_duration" format="integer" />
+        <!--刷新完成后延迟的时间-->
+        <attr name="refresh_complete_delay_duration" format="integer" />
+        <!--刷新完成到默认状态的时间-->
+        <attr name="refresh_complete_to_default_scrolling_duration" format="integer" />
+        <!--默认到刷新中的时间[自动下拉刷新使用]-->
+        <attr name="default_to_refreshing_scrolling_duration" format="integer" />
+        <!--上拉(未触发加载更多)到默认状态的时间-->
+        <attr name="swiping_to_load_more_to_default_scrolling_duration" format="integer" />
+        <!--松开到加载更多的时间-->
+        <attr name="release_to_loading_more_scrolling_duration" format="integer" />
+        <!--加载更多完成后延迟的时间-->
+        <attr name="load_more_complete_delay_duration" format="integer" />
+        <!--加载更多完成到默认状态的时间-->
+        <attr name="load_more_complete_to_default_scrolling_duration" format="integer" />
+        <!--默认状态到加载中状态的时间[自动下拉刷新使用]-->
+        <attr name="default_to_loading_more_scrolling_duration" format="integer" />
+    </declare-styleable>
+</resources>

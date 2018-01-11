@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.graypn.swiperefreshlayout.demo.view.header.BtzzRefreshHeaderView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/refresh_header_height_jd">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <RelativeLayout
+            android:layout_width="210dp"
+            android:layout_height="84dp"
+            android:layout_centerInParent="true"
+            android:background="@mipmap/bg_refresh">
+
+            <FrameLayout
+                android:id="@+id/fl_sun"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@mipmap/ic_refresh_money"/>
+
+                <ImageView
+                    android:id="@+id/iv_sun_cycle"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@mipmap/ic_refresh_cycle"/>
+            </FrameLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</com.graypn.swiperefreshlayout.demo.view.header.BtzzRefreshHeaderView>

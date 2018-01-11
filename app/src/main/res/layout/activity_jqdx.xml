@@ -1,0 +1,42 @@
+<com.graypn.swiperefreshlayout.layout.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/swipeToLoadLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@id/swipe_refresh_header"
+        layout="@layout/layout_jqdx_header"/>
+
+    <LinearLayout
+        android:id="@id/swipe_target"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@color/style_color_primary"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="View01"
+            android:textColor="@color/white"
+            android:textSize="32sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="8dp"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="View02"
+            android:textColor="@color/style_color_primary"
+            android:textSize="32sp"/>
+    </LinearLayout>
+
+    <include
+        android:id="@id/swipe_load_more_footer"
+        layout="@layout/layout_classic_footer"/>
+</com.graypn.swiperefreshlayout.layout.SwipeRefreshLayout>
